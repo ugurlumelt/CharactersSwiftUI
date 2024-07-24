@@ -11,7 +11,7 @@ import SwiftUI
 struct CharactersSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ListRow(superhero: superman)
         }
     }
 }

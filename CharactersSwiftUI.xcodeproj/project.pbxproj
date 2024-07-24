@@ -11,6 +11,8 @@
 		5477E1342C511DB200F3B483 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5477E1332C511DB200F3B483 /* ContentView.swift */; };
 		5477E1362C511DB300F3B483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5477E1352C511DB300F3B483 /* Assets.xcassets */; };
 		5477E1392C511DB300F3B483 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5477E1382C511DB300F3B483 /* Preview Assets.xcassets */; };
+		5477E1402C51203000F3B483 /* SuperheroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5477E13F2C51203000F3B483 /* SuperheroModel.swift */; };
+		5477E1422C5122CE00F3B483 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5477E1412C5122CE00F3B483 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		5477E1332C511DB200F3B483 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5477E1352C511DB300F3B483 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5477E1382C511DB300F3B483 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5477E13F2C51203000F3B483 /* SuperheroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroModel.swift; sourceTree = "<group>"; };
+		5477E1412C5122CE00F3B483 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				5477E1312C511DB200F3B483 /* CharactersSwiftUIApp.swift */,
 				5477E1332C511DB200F3B483 /* ContentView.swift */,
+				5477E1412C5122CE00F3B483 /* HomeView.swift */,
+				5477E13F2C51203000F3B483 /* SuperheroModel.swift */,
 				5477E1352C511DB300F3B483 /* Assets.xcassets */,
 				5477E1372C511DB300F3B483 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5477E1402C51203000F3B483 /* SuperheroModel.swift in Sources */,
+				5477E1422C5122CE00F3B483 /* HomeView.swift in Sources */,
 				5477E1342C511DB200F3B483 /* ContentView.swift in Sources */,
 				5477E1322C511DB200F3B483 /* CharactersSwiftUIApp.swift in Sources */,
 			);
